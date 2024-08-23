@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Desing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9bbf68b7d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="./images/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>Our Certificate & Online Programs For 2024</h1>
+
+  </section>
+
+  <!-- ----------blog page content---------- -->
+
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left"><img src="./images/certificate.jpg" alt="">
+        <h2>Our Certificate & Online Programs For 2024</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste est quia voluptate, laudantium minus nihil quod
+          repudiandae consectetur commodi quisquam, eius eos dolores vitae voluptates eligendi praesentium quas impedit
+          esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatum error inventore asperiores
+          soluta velit mollitia fugit reiciendis, repellendus odio modi rerum sequi beatae maxime in? Tempora repellat
+          ut quam.</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nam ea aliquam corrupti modi quidem natus eos
+          quam eveniet debitis. Tempora non vel velit perferendis, qui eos deleniti ea quidem! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Officiis pariatur libero, cupiditate eos ullam iste natus. Consequatur,
+          ipsum tempore quo ea accusantium porro aliquam ipsam mollitia in eos! Corporis, sequi! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Temporibus amet quos molestias quam dolore quae nesciunt odit veniam fugit
+          sed tempora expedita ipsa, voluptatibus aut est dolorum ducimus iste nam.</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nam ea aliquam corrupti modi quidem natus eos
+          quam eveniet debitis. Tempora non vel velit perferendis, qui eos deleniti ea quidem! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Officiis pariatur libero, cupiditate eos ullam iste natus. Consequatur,
+          ipsum tempore quo ea accusantium porro aliquam ipsam mollitia in eos! Corporis, sequi! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Temporibus amet quos molestias quam dolore quae nesciunt odit veniam fugit
+          sed tempora expedita ipsa, voluptatibus aut est dolorum ducimus iste nam.</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nam ea aliquam corrupti modi quidem natus eos
+          quam eveniet debitis. Tempora non vel velit perferendis, qui eos deleniti ea quidem! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Officiis pariatur libero, cupiditate eos ullam iste natus. Consequatur,
+          ipsum tempore quo ea accusantium porro aliquam ipsam mollitia in eos! Corporis, sequi! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Temporibus amet quos molestias quam dolore quae nesciunt odit veniam fugit
+          sed tempora expedita ipsa, voluptatibus aut est dolorum ducimus iste nam.</p>
+
+        <div class="comment-box">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+        </div>
+
+
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>AutoCAD</span>
+          <span>41</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Journalism</span>
+          <span>22</span>
+        </div>
+        <div>
+          <span>Commerce</span>
+          <span>30</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- -------------Footer------------- -->
+
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maxime, recusandae placeat harum in, voluptas iusto
+      <br>
+      nulla ad unde laudantium mollitia ab rem temporibus voluptatem culpa molestiae ea illo cum.
+    </p>
+
+    <div class="icons">
+      <a href=""><i class="fa fa-facebook"></i></a>
+      <a href=""><i class="fa fa-twitter"></i></a>
+      <a href=""><i class="fa fa-instagram"></i></a>
+      <a href=""><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Manas Mandal</p>
+  </section>
+
+
+  <!-- -------------------JavaScript for Toggle Menu ------------- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+    }
+  </script>
+</body>
+
+</html>
